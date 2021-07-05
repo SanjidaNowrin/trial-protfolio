@@ -1,0 +1,69 @@
+.color{
+    color: orange;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: gray;
+   
+}
+.hire-link{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#FF9571,#ff7d56);
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.header-section{
+    display: flex;
+    margin-bottom: 20px;
+}
+.text{
+    width: 50%;
+    margin-left: 80px;
+}
+.text img{
+    width: 80%;
+}
+#back-img{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#back-img2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    
+}
+.border-box{
+   
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 80px;
+    padding: 20px 20px 100px;
+    width: 40%;
+
+}
+#box1-linear{
+    border-image: linear-gradient(#FF9571,#ff7d56);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#box2-linear{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer p{
+    color: gray;
+    text-align: center;
+    padding-top: 90px;
+}
